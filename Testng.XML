@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test versions" >
+    <test verbose="2" name="Nopcommerce">
+
+        <classes>
+            <class name="Tests.Registeration_Test"></class>
+            <class name="Tests.Login_Test"></class>
+
+        </classes>
+    </test>
+</suite>
